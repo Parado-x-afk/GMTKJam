@@ -1,2 +1,2 @@
 # GMTKJam
-Bruh
+Something Good
