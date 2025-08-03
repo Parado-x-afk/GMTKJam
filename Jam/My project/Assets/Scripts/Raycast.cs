@@ -63,7 +63,7 @@ public class Raycast : MonoBehaviour
         currentInteractable.EnableOutline();
 
         // Show the interaction message from the Interactable component
-        interactionText.text = currentInteractable.message;
+        interactionText.text = currentInteractable.GetCurrentMessage();
         interactionText.enabled = true;
     }
 
